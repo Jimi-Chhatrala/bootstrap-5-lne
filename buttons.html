@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons in Bootstrap 5</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <h1 class="text-center">Buttons in Bootstrap 5</h1>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <input
+            type="submit"
+            value="btn btn-success rounded-pill"
+            class="btn btn-success rounded-pill"
+          />
+          <div class="mt-2"></div>
+          <input
+            type="submit"
+            value="btn btn-outline-success rounded-pill"
+            class="btn btn-outline-success rounded-pill"
+          />
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <input
+            type="submit"
+            value="btn btn-danger btn-block"
+            class="btn btn-danger btn-block"
+          />
+          <input
+            type="submit"
+            value="btn btn-danger btn-block active"
+            class="btn btn-danger btn-block active"
+          />
+          <div class="mt-2"></div>
+          <input
+            type="submit"
+            value="btn btn-danger btn-block"
+            class="btn btn-danger btn-block"
+            disabled
+          />
+          <input
+            type="submit"
+            value="btn btn-danger btn-block disabled"
+            class="btn btn-danger btn-block disabled"
+          />
+
+          <div class="mt-2"></div>
+          <!-- anchor tag do not support disabled arrtibute but can support BS5's disabled class -->
+
+          <a href="#" class="btn btn-danger btn-block disabled"
+            >Anchor Tag Disabled -> btn btn-danger btn-block disabled</a
+          >
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row mt-5">
+        <div class="col-md-6 d-grid gap-3">
+          <input
+            type="submit"
+            value="btn btn-danger btn-block"
+            class="btn btn-danger btn-block"
+          />
+          <input
+            type="submit"
+            value="btn btn-warning btn-block"
+            class="btn btn-warning btn-block"
+          />
+          <input
+            type="submit"
+            value="btn btn-success btn-block"
+            class="btn btn-success btn-block"
+          />
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row mt-5">
+        <div class="col-md-6 d-grid">
+          <input
+            type="submit"
+            value="btn btn-success btn-block"
+            class="btn btn-success btn-block"
+          />
+        </div>
+        <div class="col-md-12 mt-5 d-grid">
+          <input
+            type="submit"
+            value="btn btn-success btn-block"
+            class="btn btn-success btn-block"
+          />
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <input
+            type="submit"
+            value="btn btn-success btn-sm"
+            class="btn btn-success btn-sm"
+          />
+          <input
+            type="submit"
+            value="btn btn-success"
+            class="btn btn-success"
+          />
+          <div class="mt-2"></div>
+          <input
+            type="submit"
+            value="btn btn-success btn-lg"
+            class="btn btn-success btn-lg"
+          />
+        </div>
+      </div>
+      <!-- All type of buttons and links applied -->
+
+      <hr />
+
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <a href="#" class="btn btn-success">btn btn-success</a>
+          <a href="#" class="btn btn-outline-success"
+            >btn btn-outline-success</a
+          >
+          <div class="mt-2"></div>
+          <button class="btn btn-primary">btn btn-primary</button>
+          <button class="btn btn-outline-primary">
+            btn btn-outline-primary
+          </button>
+          <input
+            type="submit"
+            value="btn btn-warning"
+            class="btn btn-warning"
+          />
+          <div class="mt-2"></div>
+          <input
+            type="submit"
+            value="btn btn-outline-warning"
+            class="btn btn-outline-warning"
+          />
+        </div>
+      </div>
+      <!-- Outline Buttons -->
+
+      <hr />
+
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <input
+            type="submit"
+            value="btn btn-outline-success"
+            class="btn btn-outline-success"
+          />
+          <input
+            type="submit"
+            value="btn btn-outline-danger"
+            class="btn btn-outline-danger"
+          />
+          <div class="mt-2"></div>
+          <input
+            type="submit"
+            value="btn btn-outline-warning"
+            class="btn btn-outline-warning"
+          />
+          <input
+            type="submit"
+            value="btn btn-outline-primary"
+            class="btn btn-outline-primary"
+          />
+          <div class="mt-2"></div>
+          <input
+            type="submit"
+            value="btn btn-outline-secondary"
+            class="btn btn-outline-secondary"
+          />
+          <input
+            type="submit"
+            value="btn btn-outline-info"
+            class="btn btn-outline-info"
+          />
+          <div class="mt-2"></div>
+          <input
+            type="submit"
+            value="btn btn-outline-light"
+            class="btn btn-outline-light"
+          />
+          <input
+            type="submit"
+            value="btn btn-outline-dark"
+            class="btn btn-outline-dark"
+          />
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Simple Buttons -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <input
+            type="submit"
+            value="btn btn-success"
+            class="btn btn-success"
+          />
+          <input type="submit" value="btn btn-danger" class="btn btn-danger" />
+          <input
+            type="submit"
+            value="btn btn-warning"
+            class="btn btn-warning"
+          />
+          <div class="mt-2"></div>
+          <input
+            type="submit"
+            value="btn btn-primary"
+            class="btn btn-primary"
+          />
+          <input
+            type="submit"
+            value="btn btn-secondary"
+            class="btn btn-secondary"
+          />
+          <input type="submit" value="btn btn-info" class="btn btn-info" />
+          <div class="mt-2"></div>
+          <input type="submit" value="btn btn-light" class="btn btn-light" />
+          <input type="submit" value="btn btn-dark" class="btn btn-dark" />
+        </div>
+      </div>
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
